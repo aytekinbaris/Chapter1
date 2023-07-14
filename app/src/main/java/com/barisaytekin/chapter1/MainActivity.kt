@@ -8,6 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //baris
+        //Section 3.1: String Equality
+        val str1 = "Hello, World!"
+        val str2 = "Hello," + " World!"
+        println(str1 == str2)
     }
 }
